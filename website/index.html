@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link href="css/app.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+        <script src="scripts/index.js" type="application/javascript"></script>
+        <script src="scripts/MainController.js" type="application/javascript"></script>
+    </head>
+
+    <body ng-app="angularApp">
+        <div ng-controller="MainController">
+            <header class="container-fluid">
+                <h1>TempoMeter</h1>
+            </header>
+
+            <div class="container-fluid">
+                <div class="row">
+
+                    
+                    <section class="col-sm-12">
+
+                        <div class="row">
+                            <article>
+                                <h2>Information</h2>
+                                <div class="col-sm-12">
+                                    <p>Following test investigates the human ability to keep up with isochronous and gradually changing tempo.</p>
+                                    <p>It takes up to four minutes to complete this test.</p>
+                                    <p>You will see the graph of your performance in the end.</p>
+                                    <p>This test does not work on mobile, or tablet browsers!</p>
+                                    <p>This test is anonymous, however, it uses cookies to store data of your performance. We will assume you are OK with it, if you start the test.</p>                                 
+                                </div>     
+                            </article>
+
+                            
+                            <article>
+                                <h2>Instructions</h2> 
+                                <div class="col-sm-12">
+                                    <p>This test consists of three parts. Each part starts with the metronome sound. After the text on the website changes from "Focus!" to "Tap Now!", you should start tapping the button with your mouse or touchpad. The metronome sound will go away after some time, but you should keep tapping to the tempo set by the metronome to the best of your abilities  until the text changes to "Stop tapping". You will be automatically redirected to a short survey after each part. The surveys have to be submitted by clicking on the "Complete" button.</p>
+                                    <p>Use headphones during the test! The delay created by the speed of sound traveling in the air will be reduced to minimum by doing so. Set the volume using the following test sound to a comfortable level. </p>
+                                    <audio id="player">
+                                        <source src="audio/test.wav" type="audio/wav">
+                                    </audio>
+                                    <p>While performing this test, you should be in a quiet environment!</p>
+                                    <button class="myButton3" onclick="document.getElementById('player').play()">Play Test Sound</button>
+                                </div>
+                            </article>
+
+                        </div>
+                        
+                        <div class="col-sm-12 text-center">
+                            <a href="views/steady.html" class="myButton1">Start</a>
+                        </div>
+                        
+                    </section>
+                </div>
+            </div>
+
+                <footer class="container-fluid">
+                    author: Tomas Gajarsky
+                    <p>{{ timestamp }}</p>
+                </footer>
+        </div>
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,123 @@
+.btn-green {
+    background-color: #1ab394;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn-green:focus,
+.btn-green:hover {
+    background-color: #18a689;
+    color: #fff;
+}
+.panel-footer {
+    padding: 0 15px;
+    border: none;
+    text-align: right;
+    background-color: lightgray;
+}
+
+
+
+
+header, footer {
+    background-color: lightseagreen;
+    color: black;
+    padding: 25px;
+    text-align: center;
+}
+
+aside {
+    font-weight: bold;
+    background-color: grey;
+}
+
+h2 {
+    color:lightseagreen;
+}
+
+.title {
+    color: darkmagenta;
+}
+
+#orderedlist {
+    color: mediumslateblue;
+}
+
+nav {
+    background-color: gray;
+}
+
+.myButton1 {
+	background-color: lightseagreen;
+	-moz-border-radius:26px;
+	-webkit-border-radius:26px;
+	border-radius:26px;
+	border:3px solid seagreen;
+	display:inline-block;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:10px 20px;
+	text-decoration:none;
+	text-shadow:1px 1px 2px #2f6627;
+}
+
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color:lightseagreen;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:3px solid seagreen;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family:Arial;
+	font-size:32px;
+	padding:30px 50px;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #2f6627;
+}
+
+.myButton2:active {
+	position:relative;
+	top:1px;
+	background-color:seagreen;
+}
+
+.myButton3 {
+	background-color:lightseagreen;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:3px solid seagreen;
+	display:inline-block;
+	cursor:pointer;
+	color: #fff;
+	font-family:Arial;
+	font-size:16px;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:1px 1px 1px #2f6627;
+}
+
+.myButton3:active {
+	position:relative;
+	top:1px;
+	background-color:seagreen;
+}
+
+section {
+    padding: 20pt;
+    background-color: lightgray;
+}
+
+article {
+    padding: 5pt;
+    background-color: lightgray;
+}
